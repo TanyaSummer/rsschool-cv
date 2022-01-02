@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__img">
+          <img src="/images/avatar.jpg" alt="avatar">
+        </div>
+        <div class="header__box">
+          <h1 class="header__box-title">
+            Tatsiana<br> Saniuk
+          </h1>
+          <h2 class="header__box-subtitle">
+            Juniour Front-End Developer
+          </h2>
+        </div>
+      </div>
+    </div>
+  </header>
+   <main class="main">
+    <div class="content">
+      <div class="container">
+        <div class="content-inner">
+          <div class="sidebar">
+            <div class="education">
+              <div class="content-inner__box education__inner">
+                <div class="content__title">
+                  Education
+                </div>
+                <div class="education__text">
+                  <span>September, 2021</span>
+                  <span>Markup Developer “Site layout from 0 to 1” </span>
+                  <span>Аuthor Vadim Prokopchuk.</span>
+                </div>
+                <div class="education__text">
+                  <span>2019г.</span>
+                  <span>"Learn HTML Course"</span>
+                  <span>Codecademy</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="content-inner__box contact__inner">
+                <div class="content__title">
+                  Contact
+                </div>
+                <div class="contact__text">
+                  <p>
+                    <span class="contact__text-title">Email:</span>
+                    <span>tanyakitun@yahoo.com</span>
+                  </p>
+                  <p>
+                    <span class="contact__text-title">Tel.:</span>
+                    <span> +7 977 561 32 87</span>
+                  </p>
+                  <p>
+                    <span class="contact__text-title">Discord:</span>
+                    <span> @TanyaSummer#0387</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="about">
+              <div class="content-inner__box about-inner">
+                <div class="content__title about-title">
+                  About yourself
+                </div>
+                <div class="about__text">
+                  My goal is to study at JS developer. Now I work as a junior html/css developer.
+                </div>
+              </div>
+            </div>
+            <div class="projects">
+              <div class="content-inner__box projects-inner">
+                <div class="content__title projects-title">
+                  Educational projects
+                </div>
+                <a class="projects__link" href="https://github.com/TanyaSummer/marche">
+                  https://github.com/TanyaSummer/marche
+                </a>
+              </div>
+            </div>
+            <div class="english-level">
+              <div class="content-inner__box english-level-inner">
+                <div class="content__title">
+                  English level
+                </div>
+                <div class="english-level__text">
+                  A1
+                </div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="content-inner__box skills-inner">
+                <div class="content__title">
+                  Skills
+                </div>
+                <div class="skills-content">
+                  <ul class="skills-content__box">
+                    <li class="bar learning" data-skill="HTML"></li>
+                    <li class="bar back basic" data-skill="CSS"></li>
+                    <li class="bar back intermediate" data-skill="SCSS"></li>
+                    <li class="bar front advanced" data-skill="jQuery"></li>
+                    <li class="bar front expert" data-skill="Figma"></li>
+                  </ul>
+                  <ul class="skills-content__box">
+                    <li class="bar learning" data-skill="Photoshop"></li>
+                    <li class="bar back basic" data-skill="Gulp"></li>
+                    <li class="bar back intermediate" data-skill="Git"></li>
+                    <li class="bar front advanced" data-skill="BEM"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="code-example">
+          <div class="content-inner__box code-example-inner">
+            <div class="content__title">
+              Code Example
+            </div>
+            <code>
+              function peak(arr) <br>
+              &nbsp;&nbsp;for (let i = 1; i &lt; arr.length - 1; i++) {<br>
+                &nbsp;&nbsp;&nbsp;let leftSum = arr.slice(0, i).reduce(&nbsp;&nbsp;(accumulator, currentValue) =&gt; accumulator + currentValue);<br>
+                &nbsp;&nbsp;&nbsp;let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) =&gt; accumulator + currentValue);<br>
+                &nbsp;&nbsp;&nbsp;if (leftSum === rightSum) return i;<br>
+                &nbsp;&nbsp;}<br>
+                &nbsp;&nbsp;return -1;<br>
+              }
+            </code>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main> 
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a class="git" href="https://github.com/TanyaSummer">
+          <img class="git-img" src="/images/git.svg" alt="git" style="width:50px">
+          <p>Visit my GitHub</p>
+        </a>
+        <p>© 2021</p>
+        <a href="https://rs.school/js/">
+          <img src="/images/rs.svg" alt="rs" style="width:150px">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
